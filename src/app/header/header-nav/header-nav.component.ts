@@ -9,10 +9,14 @@ import { inlineImages } from '../../enums/images.enum';
 export class HeaderNavComponent implements OnInit {
 
   siteLogo = "";
+  isUserLoggedIn = false;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.siteLogo = inlineImages.SITE_LOGO;
+  }
+
+  ngAfterViewInit() {
   }
 
 }
