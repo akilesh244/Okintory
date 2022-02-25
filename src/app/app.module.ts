@@ -10,6 +10,8 @@ import { TestimonialsComponent } from './testimonials/testimonials/testimonials.
 import { NewArrivalsComponent } from './new-arrivals/new-arrivals/new-arrivals.component';
 import { AdvtBannerComponent } from './advertisement-banner/advt-banner/advt-banner.component';
 import { ShopCollectionComponent } from './shop-collection/shop-collection/shop-collection.component';
+import { LoginPageComponent } from './login-page/login-page/login-page.component';
+import { RegistrationPageComponent } from './registration-page/registration-page/registration-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ShopCollectionComponent } from './shop-collection/shop-collection/shop-
     TestimonialsComponent,
     NewArrivalsComponent,
     AdvtBannerComponent,
-    ShopCollectionComponent
+    ShopCollectionComponent,
+    LoginPageComponent,
+    RegistrationPageComponent
   ],
   imports: [
     BrowserModule,
