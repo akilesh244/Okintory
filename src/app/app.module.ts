@@ -12,6 +12,12 @@ import { AdvtBannerComponent } from './advertisement-banner/advt-banner/advt-ban
 import { ShopCollectionComponent } from './shop-collection/shop-collection/shop-collection.component';
 import { LoginPageComponent } from './login-page/login-page/login-page.component';
 import { RegistrationPageComponent } from './registration-page/registration-page/registration-page.component';
+import { ShopHeaderComponent } from './shop-header/shop-header.component';
+import { ShopHomepageComponent } from './shop-homepage/shop-homepage.component';
+import { ShopDashboardComponent } from './shop-dashboard/shop-dashboard.component';
+import { ShopCartComponent } from './shop-cart/shop-cart.component';
+import { ShopFooterComponent } from './shop-footer/shop-footer.component';
+import { ShopCheckoutComponent } from './shop-checkout/shop-checkout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +30,13 @@ import { RegistrationPageComponent } from './registration-page/registration-page
     AdvtBannerComponent,
     ShopCollectionComponent,
     LoginPageComponent,
-    RegistrationPageComponent
+    RegistrationPageComponent,
+    ShopHeaderComponent,
+    ShopHomepageComponent,
+    ShopDashboardComponent,
+    ShopCartComponent,
+    ShopFooterComponent,
+    ShopCheckoutComponent
   ],
   imports: [
     BrowserModule,
